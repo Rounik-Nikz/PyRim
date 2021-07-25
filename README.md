@@ -1,36 +1,36 @@
-**AUTHOR**  : Rounik Mondal
-**INFO**    : A Simple and Efficient Image Manupulation Module
-**VERSION** : 1.0
+>**AUTHOR**  : Rounik Mondal
+>**INFO**    : A Simple and Efficient Image Manupulation Module
+>**VERSION** : 1.0
 
-~~-+--+--+--+--+--+-~~
-**CLASS**
+>~~-+--+--+--+--+--+-~~
+>**CLASS**
+>
+>Rotate
+>Blur
+>Contour
+>EdgeEnhance
+>Emboss
+>FindEdges
+>~~-+--+--+--+--+--+-~~
 
-Rotate
-Blur
-Contour
-EdgeEnhance
-Emboss
-FindEdges
-~~-+--+--+--+--+--+-~~
+>~~-+--+--+--+--+--+-~~
+>**METHODS**
+>
+>rotateImage                 --> Takes two positional argument (picture : str, degree : int)
+>blurImage                    --> Takes two positional argument (picture : str, intensity : int)
+>contourImage              --> Takes one positional argument (picture : str)
+>edgeEnhanceImage     --> Takes two positional argument (picture : str)
+>embossImage              --> Takes two positional argument (picture : str)
+>findEdgesImage           --> Takes two positional argument (picture : str)
+>~~-+--+--+--+--+--+-~~
 
-~~-+--+--+--+--+--+-~~
-**METHODS**
-
-rotateImage                 --> Takes two positional argument (picture : str, degree : int)
-blurImage                    --> Takes two positional argument (picture : str, intensity : int)
-contourImage              --> Takes one positional argument (picture : str)
-edgeEnhanceImage     --> Takes two positional argument (picture : str)
-embossImage              --> Takes two positional argument (picture : str)
-findEdgesImage           --> Takes two positional argument (picture : str)
-~~-+--+--+--+--+--+-~~
-
-~~-+--+--+--+--+--+-~~
-**ARGUMENTS**
-
-picture             --> str : ImageSource of the picture file format which needs to be edited
-degree             --> int : Degree to which the picture should be rotated
-intensity          --> int : Intensity of the blur which should be implemented on the image
-~~-+--+--+--+--+--+-~~
+>~~-+--+--+--+--+--+-~~
+>**ARGUMENTS**
+>
+>picture             --> str : ImageSource of the picture file format which needs to be edited
+>degree             --> int : Degree to which the picture should be rotated
+>intensity          --> int : Intensity of the blur which should be implemented on the image
+>~~-+--+--+--+--+--+-~~
 
 
 
