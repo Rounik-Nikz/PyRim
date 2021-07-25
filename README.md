@@ -72,4 +72,5 @@ Please make sure to update tests as appropriate.
 
 ## License
 [MIT](https://github.com/Rounik-Nikz/PyRim/blob/main/LICENSE.txt)
+
 Copyright (c) Rounik Mondal, All Rights Reserved
