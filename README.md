@@ -38,7 +38,7 @@ intensity             --> int : Intensity of the blur which should be implemente
 ```
 
 
-# How To Use
+## How To Use
 
 ```python
 from pyrim import Rotate, Blur, Contour, Emboss, EdgeEnhance, FindEdges
