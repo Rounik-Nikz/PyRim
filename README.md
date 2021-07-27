@@ -3,24 +3,14 @@
 
 **Author**  : **[Rounik Mondal](https://rounik.herokuapp.com/)**
 
-**Version** : *1.0*
+**Version** : **0.1**
 
 # Installation
 ```python
 pip install pyrim
 ```
 
-### Classes Used
-```python
-Rotate
-Blur
-Contour
-EdgeEnhance
-Emboss
-FindEdges
-```
-
-### Methods Used
+### Funtions Used
 ```bash
 rotateImage           --> Takes two positional argument (picture : str, degree : int)
 blurImage             --> Takes two positional argument (picture : str, intensity : int)
@@ -41,26 +31,14 @@ intensity             --> int : Intensity of the blur which should be implemente
 ## How To Use
 
 ```python
-from pyrim import Rotate, Blur, Contour, Emboss, EdgeEnhance, FindEdges
+import pyrim
 
-#initializing classes og the module in variables
-
-rotate = Rotate()
-blur = Blur()
-contour = Contour()
-edge = EdgeEnhance()
-emboss = Emboss()
-find = FindEdges()
-
-
-#excecuting codes with initialized variables
-
-rotate.rotateImage("yourImage.format", int)   #--> example : rotate.rotateImage("my_image.png", 90) 
-blur.blurImage("yourImage.format", int)       #--> example : blur.blurImage("my_image.png", 20)
-contour.contourImage("yourImage.format")      #--> example : contour.contourImage("my_image.png")
-edge.edgeEnhanceImage("yourImage.format")     #--> example : edge.edgeEnhanceImage("my_image.png")
-emboss.embossImage("yourImage.format")        #--> example : emboss.embossImage("my_image.png")
-find.findEdgesImage("yourImage.format")       #--> example : find.findEdgesImage("my_image.png")
+pyrim.rotateImage("yourImage.format", int)     #--> example : pyrim.rotateImage("my_image.png", 90) 
+pyrim.blurImage("yourImage.format", int)       #--> example : pyrim.blurImage("my_image.png", 20)
+pyrim.contourImage("yourImage.format")         #--> example : pyrim.contourImage("my_image.png")
+pyrim.edgeEnhanceImage("yourImage.format")     #--> example : pyrim.edgeEnhanceImage("my_image.png")
+pyrim.embossImage("yourImage.format")          #--> example : pyrim.embossImage("my_image.png")
+pyrim.findEdgesImage("yourImage.format")       #--> example : pyrim.findEdgesImage("my_image.png")
 ```
 
 
